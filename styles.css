@@ -1,13 +1,39 @@
+body {
+  text-transform: uppercase;
+}
+
 video {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  position: absolute;
+}
+
+header {
+  position: relative;
+}
+
+h1 {
+  border: 1px solid #212529;
+  padding: 20px;
+}
+
+i {
+  margin-right: 5px;
 }
 .container {
-  max-width: 900px;
+  max-width: 2000px;
 }
 .navbar-brand {
 }
 
 .video-wrapper {
+  position: relative;
+  max-width: 2000px;
+  height: 600px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
