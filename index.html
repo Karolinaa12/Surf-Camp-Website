@@ -15,13 +15,18 @@
       src="https://kit.fontawesome.com/6821d79269.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar fixed-top bg-light bg-opacity-50 navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><i class="fa-solid fa-water"></i>Surf Camp</a
+          ><i class="logo fa-solid fa-water"></i>Surf Camp</a
         >
         <button
           class="navbar-toggler"
@@ -66,17 +71,22 @@
           <source src="img/home-bg.mp4" type="video/mp4" />
         </video>
         <header>
-          <h1>Come surf with us</h1>
+          <h1 class="mb-5">Come surf with us</h1>
+
+          <a class="fixed-bottom" href="#paragraph-1"
+            ><i class="scroll-down bi bi-chevron-double-down"></i
+          ></a>
         </header>
       </div>
     </div>
+
     <div class="container main">
       <h2>Welcome to our surf camp</h2>
       <hr />
       <blockquote class="blockquote mb-0">
         <!--<cite>Let the water guide you</cite>-->
       </blockquote>
-      <p>
+      <p id="paragraph-1">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla,
         possimus dolorem laudantium assumenda ullam cupiditate recusandae? Hic
         assumenda cumque odit impedit. Nihil odit culpa ab deleniti nulla
