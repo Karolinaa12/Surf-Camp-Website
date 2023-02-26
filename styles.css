@@ -119,3 +119,8 @@ button.contact-us {
     display: none;
   }
 } */
+
+.image-rounded {
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
