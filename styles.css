@@ -68,6 +68,10 @@ i.scroll-down:hover {
   justify-content: center;
 }
 
+.background-img {
+  padding: 0;
+}
+
 button.contact-us {
   border-radius: 0%;
   margin-left: 20px;
