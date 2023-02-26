@@ -27,6 +27,12 @@ h2 {
   margin: 50px auto;
 }
 
+.background-img {
+  background-image: url(img/bg2.jpg);
+  height: 800px;
+  background-position: center;
+}
+
 p {
   margin: 50px auto;
 }
@@ -61,6 +67,13 @@ i.scroll-down:hover {
   color: #212529;
 }
 
+img.bg-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .video.container {
   max-width: 4000px;
   padding: 0;
@@ -78,16 +91,31 @@ i.scroll-down:hover {
 }
 
 .background-img {
+  max-width: 4000px;
   padding: 0;
+}
+
+.background-image {
+  padding: 0;
+}
+.background-image-wrapper {
+  position: relative;
+  max-width: 4000px;
+  height: 800px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button.contact-us {
   border-radius: 0%;
   margin-left: 20px;
 }
-
+/*
 @media (max-width: 768px) {
   button.contact-us {
     display: none;
   }
-}
+} */
