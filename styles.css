@@ -7,6 +7,14 @@ a.contact-us-link {
   color: #fff;
 }
 
+a.github-link {
+  color: #fff;
+}
+
+a.github-link:hover {
+  text-decoration: underline;
+}
+
 section {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -131,4 +139,8 @@ button.contact-us {
 .image-rounded {
   border-top-left-radius: 15%;
   border-bottom-right-radius: 15%;
+}
+
+.social-media-icon {
+  margin-right: 5px;
 }
