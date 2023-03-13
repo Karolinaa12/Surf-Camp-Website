@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surf & Retreat</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6821d79269.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+<div>
+    <nav class="navbar bg-light bg-opacity-70 navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i class="logo fa-solid fa-water"></i>Surf Camp</a
+        >
+    </nav>
+</div>
+
+<div class="container mt-3">
+    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item">
+          <a href="surf-lessons.html">Surf Lessons</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Surf & Retreat</li>
+      </ol>
+    </nav>
+    <form>
+        <div class="row">
+            <div class="col-md-4">
+                <label for="guest-number" class="form-label">How many guests</label>
+                <input class="form-control" type="number" id="guest-number"></div>
+            <div class="col-md-4">
+                <label for="duration" class="form-label">Duration</label>
+                <select class="form-select" id="duration">
+                    <option seleceted>7 nights</option>
+                    <option value="1">10 nights</option>
+                    <option value="2">14 nights</option>
+                    <option value="3">21 nights</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="dates" class="form-label">Dates</label>
+                <input class="form-control" type="date" id="dates">
+
+            </div>
+        </div>
+           
+    </form>
+
+    <div class="row mt-5 align-items-center">
+
+        <div class="col-md-6 mb-3">
+            <img class="img-fluid rounded" src="img/retreat1.jpg">
+        </div>
+        
+        <div class="col-md-6 text-center ">        
+            <h2>Surf & Retreat</h2>
+            <p>Food & accommodation, entertainment, surf lessons.</p>
+            <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Show more
+              </a>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+        </div>
+       
+    </div>
+</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
