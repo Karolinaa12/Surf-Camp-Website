@@ -143,4 +143,10 @@ button.contact-us {
 
 .social-media-icon {
   margin-right: 5px;
+  color: #fff;
+  transition: all ease-in-out 1ms;
+}
+
+.social-media-icon:hover {
+  color: #ffffff9c;
 }
