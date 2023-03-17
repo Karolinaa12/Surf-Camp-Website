@@ -150,3 +150,10 @@ button.contact-us {
 .social-media-icon:hover {
   color: #ffffff9c;
 }
+
+.accordion {
+  --bs-accordion-active-color: #fff;
+  --bs-accordion-active-bg: #000000d8;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #5a5a5a57;
+  --bs-accordion-btn-focus-border-color: #fff;
+}
