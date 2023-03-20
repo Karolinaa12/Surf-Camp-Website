@@ -157,3 +157,8 @@ button.contact-us {
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #5a5a5a57;
   --bs-accordion-btn-focus-border-color: #fff;
 }
+
+::selection {
+  background-color: #39414a;
+  color: #fff;
+}
